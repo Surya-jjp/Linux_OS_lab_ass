@@ -1,19 +1,9 @@
 Write a sed command  to 
 1.	print lines numbers of lines beginning with “O”
-sed -n "/^O/" lab6.sh
-
 2.	delete digits in the given input file.
-sed 's/[0-9]//g' lab6.sh
-
 3.	delete lines that contain both BEGIN and END
-sed '/BEGIN/ {/END/d}' lab6.sh
-
 4.	delete lines that contain BEGIN but not END
- sed '/BEGIN/ {/END/!d}' lab6.sh 
-
 5.	deletes the first character in each line in a file
-
-
 6.	deletes the last character in each line in a file
 7.	deletes the first character, (if it numeric ) in each line in a file.
 8.	deletes the character before the last character in each line in a file.
